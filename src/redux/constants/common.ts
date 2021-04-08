@@ -1,0 +1,2 @@
+export const SET_LAST_OPEN_KEY = 'SET_LAST_OPEN_KEY'
+export const SET_SELECT_KEY = 'SET_SELECT_KEY'

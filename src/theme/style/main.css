@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+        'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+#root,
+#root > .ant-layout {
+    height: 100%;
+}
+.logo {
+    float: left;
+}
+.header-titile {
+    color: #fff;
+}
+
+.ant-layout-header {
+    padding: 0 20px;
+    height: 48px;
+    line-height: 48px;
+}
+
+.ant-menu-inline-collapsed {
+    width: 48px;
+}
+
+.site-layout-background {
+    background: #fff;
+}
+.ant-layout-footer {
+    padding: 24px 50px 0px;
+}
+
+.ant-layout-sider-trigger {
+    background: #fff;
+    color: black;
+}
+.ant-layout-has-sider > .ant-layout {
+}
+.ant-layout-content.site-layout-background {
+    height: calc(100vh - 200px);
+    overflow-y: auto;
+}
+.language-home .anticon {
+    font-size: 18px;
+    text-align: center;
+    margin-right: 0px;
+}
+/* login layout */
+.login-layout {
+    width: 100%;
+    height: 100%;
+    background: #f4f8fa;
+}
+.login-layout .content {
+    width: 1000px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: url(../img/bg.ae53586f.png) no-repeat 100% 0;
+}
+.login-layout .content:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 300px;
+    height: 300px;
+    background: url(../img/bg.ae53586f.png) no-repeat;
+    background-size: 100% 100%;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.login-layout .content .panel {
+    width: 800px;
+    margin: 100px;
+    box-shadow: 0 12px 20px #d8e0e6;
+    display: flex;
+}
+.panel .welcome {
+    position: relative;
+    background: #1978e6;
+    color: #fff;
+    padding: 30px;
+    flex: 1 1 50%;
+    line-height: 2;
+}
+.panel .welcome h2 {
+    font-size: 30px;
+    padding-top: 30px;
+    color: #fff;
+}
+.panel .welcome .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.logo .anticon-dingding {
+    font-size: 40px;
+}
+.help {
+    font-size: 14px;
+    color: #fff;
+}
+.panel .form {
+    position: relative;
+    padding: 50px 30px 30px;
+    flex: 1 1 50%;
+    background: url(../img/bg-icon2.31571aad.png) no-repeat -30% 0 #fff;
+}
+.panel .form h2 {
+    font-size: 40px;
+    text-align: center;
+}
+.panel .form::before {
+    content: '';
+    position: absolute;
+    width: 114px;
+    height: 56px;
+    flex: 1 1 50%;
+    background: url(../img/bg-icon1.244c69eb.png) no-repeat #fff;
+    bottom: 0;
+    right: 0;
+}
+.panel .form .login-form {
+    max-width: 300px;
+}
+.panel .form .login-form-forgot {
+    float: right;
+}
+.panel .form.ant-col-rtl .login-form-forgot {
+    float: left;
+}
+.panel .form .login-form-button {
+    width: 100%;
+}
+.language {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 20px;
+}
+/* login layout */
